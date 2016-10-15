@@ -1,7 +1,7 @@
 USE_CAMERA_STUB := true
 
 # inherit from the proprietary version
--include vendor/samsung/v1awifi/BoardConfigVendor.mk
+-include vendor/samsung/v2awifi/BoardConfigVendor.mk
 
 TARGET_NO_BOOTLOADER := true
 TARGET_BOOTLOADER_BOARD_NAME := universal5420
@@ -36,7 +36,7 @@ BOARD_FLASH_BLOCK_SIZE := 131072
 
 BOARD_USE_CUSTOM_RECOVERY_FONT := \"roboto_23x41.h\"
 
-TARGET_PREBUILT_KERNEL := device/samsung/v1awifi/kernAl
+TARGET_PREBUILT_KERNEL := device/samsung/v2awifi/kernel
 
 #TARGET_USE_CUSTOM_LUN_FILE_PATH := /sys/class/android_usb/android0/f_mass_storage/lun%d/file
 
@@ -59,6 +59,6 @@ TW_BRIGHTNESS_PATH := /sys/devices/platform/i2c-gpio.24/i2c-24/24-002c/backlight
 TW_NO_REBOOT_BOOTLOADER := true
 TW_HAS_DOWNLOAD_MODE := true
 TW_INCLUDE_CRYPTO := true
-#BOARD_CUSTOM_BOOTIMG_MK := device/samsung/v1awifi/custombootimg.mk
+#BOARD_CUSTOM_BOOTIMG_MK := device/samsung/v2awifi/custombootimg.mk
 TW_NO_EXFAT := true
 TW_NO_EXFAT_FUSE := true

@@ -21,8 +21,8 @@ ro.build.host=SWDD5021
 ro.build.tags=release-keys
 ro.product.model=SM-P900
 ro.product.brand=samsung
-ro.product.name=v1awifixx
-ro.product.device=v1awifi
+ro.product.name=v2awifixx
+ro.product.device=v2awifi
 ro.product.board=universal5420
 ro.product.cpu.abi=armeabi-v7a
 ro.product.cpu.abi2=armeabi
@@ -32,10 +32,10 @@ ro.product.locale.region=GB
 ro.wifi.channels=
 ro.board.platform=exynos5
 # ro.build.product is obsolete; use ro.product.device
-ro.build.product=v1awifi
+ro.build.product=v2awifi
 # Do not try to parse ro.build.description or .fingerprint
-ro.build.description=v1awifixx-user 4.4.2 KOT49H P900XXUANB3 release-keys
-ro.build.fingerprint=samsung/v1awifixx/v1awifi:4.4.2/KOT49H/P900XXUANB3:user/release-keys
+ro.build.description=v2awifixx-user 4.4.2 KOT49H P900XXUANB3 release-keys
+ro.build.fingerprint=samsung/v2awifixx/v2awifi:4.4.2/KOT49H/P900XXUANB3:user/release-keys
 ro.build.characteristics=tablet
 # Samsung Specific Properties
 ro.build.PDA=P900XXUANB3
@@ -45,7 +45,7 @@ ro.product_ship=true
 ro.chipname=exynos5420
 # end build properties
 #
-# from device/samsung/v1awifi/system.prop
+# from device/samsung/v2awifi/system.prop
 #
 #
 # system.prop for universal_5410
